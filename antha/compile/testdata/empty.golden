@@ -1,0 +1,106 @@
+// a comment at the beginning of the file
+
+package empty
+
+import "github.com/antha-lang/antha/antha/anthalib/execution"
+import "github.com/antha-lang/antha/antha/execute"
+import "github.com/Synthace/goflow"
+import "sync"
+import "encoding/json"
+
+// a comment at the end of the file
+
+// AsyncBag functions
+func (e *Empty) Complete(params interface{}) {
+	p := params.(EmptyParamBlock)
+	if p.Error {
+
+		return
+	}
+	r := new(EmptyResultBlock)
+	e.startup.Do(func() { e.setup(p) })
+	e.steps(p, r)
+	if r.Error {
+
+		return
+	}
+
+	e.analysis(p, r)
+		if r.Error {
+
+
+		return
+	}
+
+	e.validation(p, r)
+		if r.Error {
+
+		return
+	}
+
+}
+
+// init function, read characterization info from seperate file to validate ranges?
+func (e *Empty) init() {
+	e.params = make(map[execute.ThreadID]*execute.AsyncBag)
+}
+
+func (e *Empty) NewConfig() interface{} {
+	return &EmptyConfig{}
+}
+
+func (e *Empty) NewParamBlock() interface{} {
+	return &EmptyParamBlock{}
+}
+
+func NewEmpty() interface{} {//*Empty {
+	e := new(Empty)
+	e.init()
+	return e
+}
+
+// Mapper function
+func (e *Empty) Map(m map[string]interface{}) interface{} {
+	var res EmptyParamBlock
+	res.Error = false 
+
+
+	return res
+}
+
+
+type Empty struct {
+	flow.Component                    // component "superclass" embedded
+	lock           sync.Mutex
+	startup        sync.Once
+	params         map[execute.ThreadID]*execute.AsyncBag
+}
+
+type EmptyParamBlock struct{
+	ID		execute.ThreadID
+	Error	bool
+}
+
+type EmptyConfig struct{
+	ID		execute.ThreadID
+	Error	bool
+}
+
+type EmptyResultBlock struct{
+	ID		execute.ThreadID
+	Error	bool
+}
+
+type EmptyJSONBlock struct{
+	ID			*execute.ThreadID
+	Error		*bool
+}
+
+func (c *Empty) ComponentInfo() *execute.ComponentInfo {
+	inp := make([]execute.PortInfo,0)
+	outp := make([]execute.PortInfo,0)
+
+	ci := execute.NewComponentInfo("Empty", "Empty", "", false, inp, outp)
+
+	return ci
+}
