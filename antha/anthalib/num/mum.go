@@ -1,7 +1,7 @@
 /*
 Package num provides tools for floats arithmetic.
 
-Overview
+# Overview
 
 The aim of this package is to provide Antha users with a library containing basic float vectors operations.
 
@@ -10,6 +10,7 @@ While gonum focuses on efficiency and tends to avoid allocations inside its func
 the num package allows to do multiple element-wise operations more concisely (though at the cost of some additional allocations).
 
 Example:
+
 	x := []float64{1, 2, 3}
 	linear_transformed_x := num.Add(num.Mul(a, x), b)
 
