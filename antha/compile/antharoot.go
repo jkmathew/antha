@@ -75,7 +75,7 @@ func (r *AnthaRoot) generateLib() ([]byte, error) {
 package _lib
 
 import (
-	"github.com/antha-lang/antha/component"
+	"github.com/jkmathew/antha/component"
 	"fmt"
 	{{ range .Packages }}{{ .Name }} {{ .Path }}
 	{{ end }}

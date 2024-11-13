@@ -1,8 +1,8 @@
 package target
 
 import (
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/graph"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/graph"
 )
 
 // Graph is a view of instructions as a graph

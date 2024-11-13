@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/driver"
-	framework "github.com/antha-lang/antha/driver/antha_framework_v1"
-	quantstudio "github.com/antha-lang/antha/driver/antha_quantstudio_v1"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/driver"
+	framework "github.com/jkmathew/antha/driver/antha_framework_v1"
+	quantstudio "github.com/jkmathew/antha/driver/antha_quantstudio_v1"
+	"github.com/jkmathew/antha/target"
 	"github.com/golang/protobuf/proto"
 )
 

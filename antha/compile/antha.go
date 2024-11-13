@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -38,9 +38,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/antha-lang/antha/antha/ast"
-	"github.com/antha-lang/antha/antha/parser"
-	"github.com/antha-lang/antha/antha/token"
+	"github.com/jkmathew/antha/antha/ast"
+	"github.com/jkmathew/antha/antha/parser"
+	"github.com/jkmathew/antha/antha/token"
 )
 
 const (
@@ -190,17 +190,17 @@ func NewAntha(root *AnthaRoot) *Antha {
 	}
 
 	p.importProtos = []string{
-		"github.com/antha-lang/antha/api/v1/blob.proto",
-		"github.com/antha-lang/antha/api/v1/coord.proto",
-		"github.com/antha-lang/antha/api/v1/element.proto",
-		"github.com/antha-lang/antha/api/v1/empty.proto",
-		"github.com/antha-lang/antha/api/v1/inventory.proto",
-		"github.com/antha-lang/antha/api/v1/measurement.proto",
-		"github.com/antha-lang/antha/api/v1/message.proto",
-		"github.com/antha-lang/antha/api/v1/polynomial.proto",
-		"github.com/antha-lang/antha/api/v1/state.proto",
-		"github.com/antha-lang/antha/api/v1/task.proto",
-		"github.com/antha-lang/antha/api/v1/workflow.proto",
+		"github.com/jkmathew/antha/api/v1/blob.proto",
+		"github.com/jkmathew/antha/api/v1/coord.proto",
+		"github.com/jkmathew/antha/api/v1/element.proto",
+		"github.com/jkmathew/antha/api/v1/empty.proto",
+		"github.com/jkmathew/antha/api/v1/inventory.proto",
+		"github.com/jkmathew/antha/api/v1/measurement.proto",
+		"github.com/jkmathew/antha/api/v1/message.proto",
+		"github.com/jkmathew/antha/api/v1/polynomial.proto",
+		"github.com/jkmathew/antha/api/v1/state.proto",
+		"github.com/jkmathew/antha/api/v1/task.proto",
+		"github.com/jkmathew/antha/api/v1/workflow.proto",
 	}
 
 	p.intrinsics = map[string]string{
@@ -274,32 +274,32 @@ func NewAntha(root *AnthaRoot) *Antha {
 		Path: "encoding/json",
 	})
 	p.addImportReq(&importReq{
-		Path:    "github.com/antha-lang/antha/antha/anthalib/wtype",
+		Path:    "github.com/jkmathew/antha/antha/anthalib/wtype",
 		UseExpr: "wtype.FALSE",
 	})
 	p.addImportReq(&importReq{
-		Path:    "github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/jobfile",
+		Path:    "github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/jobfile",
 		UseExpr: "jobfile.DefaultClient",
 	})
 	p.addImportReq(&importReq{
-		Path:    "github.com/antha-lang/antha/antha/anthalib/wunit",
+		Path:    "github.com/jkmathew/antha/antha/anthalib/wunit",
 		UseExpr: "wunit.GetGlobalUnitRegistry",
 	})
 	p.addImportReq(&importReq{
-		Path:    "github.com/antha-lang/antha/execute",
+		Path:    "github.com/jkmathew/antha/execute",
 		UseExpr: "execute.MixInto",
 	})
 	p.addImportReq(&importReq{
-		Path:         "github.com/antha-lang/antha/api/v1",
+		Path:         "github.com/jkmathew/antha/api/v1",
 		Name:         "api",
 		UseExpr:      "api.State_CREATED",
 		ProtoPackage: "org.antha_lang.antha.v1",
 	})
 	p.addImportReq(&importReq{
-		Path: "github.com/antha-lang/antha/component",
+		Path: "github.com/jkmathew/antha/component",
 	})
 	p.addImportReq(&importReq{
-		Path:    "github.com/antha-lang/antha/inject",
+		Path:    "github.com/jkmathew/antha/inject",
 		UseExpr: "inject.RegisterLineMap",
 	})
 

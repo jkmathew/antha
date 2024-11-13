@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/graph"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/graph"
+	"github.com/jkmathew/antha/target"
 )
 
 var (

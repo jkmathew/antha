@@ -16,14 +16,14 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
 // solutions is a utility package for working with solutions of LHComponents
 package solutions
 
-import "github.com/antha-lang/antha/antha/anthalib/wtype"
+import "github.com/jkmathew/antha/antha/anthalib/wtype"
 
 // NormaliseName evaluates whether a string contains a concentration and attempts to normalise the name in a standardised format.
 // e.g. 10ng/ul glucose will be normalised to 10 mg/l glucose or 10mM glucose to 10 mM/l glucose or 10mM/l glucose to 10 mM/l glucose or glucose 10mM/l to 10 mM/l glucose

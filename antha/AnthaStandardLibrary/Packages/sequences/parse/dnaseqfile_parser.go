@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -27,10 +27,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/gdx"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/genbank"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/gdx"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/genbank"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // Creates a DNASequence from a sequence file of format: .gdx .fasta .gb

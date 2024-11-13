@@ -2,14 +2,14 @@ package testinventory
 
 import (
 	"context"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/devices"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/devices"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 	"math"
 	"strings"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/search"
-	"github.com/antha-lang/antha/inventory"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/search"
+	"github.com/jkmathew/antha/inventory"
 )
 
 type platetest struct {

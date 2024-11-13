@@ -7,8 +7,8 @@ import (
 
 	"testing"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 type alignmentTest struct {

@@ -3,12 +3,12 @@ package target
 import (
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/driver"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
-	lh "github.com/antha-lang/antha/microArch/scheduler/liquidhandling"
-	"github.com/antha-lang/antha/utils"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/driver"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
+	lh "github.com/jkmathew/antha/microArch/scheduler/liquidhandling"
+	"github.com/jkmathew/antha/utils"
 )
 
 // An Initializer is an instruction with initialization instructions

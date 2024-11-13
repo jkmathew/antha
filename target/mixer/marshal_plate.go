@@ -5,7 +5,7 @@ import (
 	"encoding/csv"
 	"strconv"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // MarshalPlateCSV writes a plate to a CSV file

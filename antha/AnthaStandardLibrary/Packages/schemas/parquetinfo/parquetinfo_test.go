@@ -3,8 +3,8 @@ package parquetinfo
 import (
 	"testing"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/schemas"
-	"github.com/antha-lang/antha/antha/anthalib/data/parquet"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/schemas"
+	"github.com/jkmathew/antha/antha/anthalib/data/parquet"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

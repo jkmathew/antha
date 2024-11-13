@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 //File takes a URL and a desired file name, and returns the whole content of the response into a wtype.File object.

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/execute/executeutil"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/execute/executeutil"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

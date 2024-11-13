@@ -13,10 +13,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/antha-lang/antha/antha/anthalib/mixer"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/antha/anthalib/mixer"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
 )
 
 type PlanningTest struct {

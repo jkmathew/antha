@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/inventory"
-	"github.com/antha-lang/antha/inventory/cache"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/inventory"
+	"github.com/jkmathew/antha/inventory/cache"
 )
 
 type plateCache struct {

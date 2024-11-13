@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/target"
-	"github.com/antha-lang/antha/target/auto"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/target"
+	"github.com/jkmathew/antha/target/auto"
 	"golang.org/x/net/context"
 )
 

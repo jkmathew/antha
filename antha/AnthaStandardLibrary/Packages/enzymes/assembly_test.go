@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 var data0 = `

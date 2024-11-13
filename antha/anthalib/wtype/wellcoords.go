@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wutil"
+	"github.com/jkmathew/antha/antha/anthalib/wutil"
 )
 
 func A1ArrayFromWells(wells []*LHWell) []string {

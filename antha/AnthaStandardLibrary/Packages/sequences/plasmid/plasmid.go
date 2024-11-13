@@ -15,7 +15,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -25,9 +25,9 @@ package plasmid
 import (
 	"strings"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // Based on Plasmapper annotation system

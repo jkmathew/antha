@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	anthadriver "github.com/antha-lang/antha/microArch/driver"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	anthadriver "github.com/jkmathew/antha/microArch/driver"
 )
 
 type MessageInstruction struct {
@@ -125,7 +125,7 @@ func (msi *MessageInstruction) PreOutput() (messageWaitInstruction, error) {
 
 	if msi.Message == wtype.MAGICBARRIERPROMPTSTRING {
 		if msi.WaitTime > 0 {
-			return intermediate, fmt.Errorf("Wait times are incompatible with system message (%s). Please change to a non system message or contact the antha-lang authors to report this as a bug if you did not set this message.", wtype.MAGICBARRIERPROMPTSTRING)
+			return intermediate, fmt.Errorf("Wait times are incompatible with system message (%s). Please change to a non system message or contact the jkmathew authors to report this as a bug if you did not set this message.", wtype.MAGICBARRIERPROMPTSTRING)
 		}
 	} else {
 		intermediate.MessageInstruction = msi

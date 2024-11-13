@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/driver/liquidhandling/client"
-	"github.com/antha-lang/antha/driver/liquidhandling/server"
-	"github.com/antha-lang/antha/microArch/driver"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/driver/liquidhandling/client"
+	"github.com/jkmathew/antha/driver/liquidhandling/server"
+	"github.com/jkmathew/antha/microArch/driver"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
 )
 
 func assertOutputsEqual(t *testing.T, expected, got []string) {

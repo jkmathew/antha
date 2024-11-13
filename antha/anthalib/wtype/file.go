@@ -3,7 +3,7 @@ package wtype
 import (
 	"bytes"
 
-	api "github.com/antha-lang/antha/api/v1"
+	api "github.com/jkmathew/antha/api/v1"
 	"github.com/golang/protobuf/jsonpb"
 )
 

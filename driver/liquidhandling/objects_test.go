@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/inventory"
-	"github.com/antha-lang/antha/inventory/testinventory"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/inventory"
+	"github.com/jkmathew/antha/inventory/testinventory"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
 )
 
 func makePlateForTest() *wtype.Plate {

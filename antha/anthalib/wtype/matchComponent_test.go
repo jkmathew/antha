@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 func TestMatchComponent(t *testing.T) {

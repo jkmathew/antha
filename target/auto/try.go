@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	driver "github.com/antha-lang/antha/driver/antha_driver_v1"
-	runner "github.com/antha-lang/antha/driver/antha_runner_v1"
-	lhclient "github.com/antha-lang/antha/driver/liquidhandling/client"
-	"github.com/antha-lang/antha/target/human"
-	"github.com/antha-lang/antha/target/mixer"
-	"github.com/antha-lang/antha/target/shakerincubator"
+	driver "github.com/jkmathew/antha/driver/antha_driver_v1"
+	runner "github.com/jkmathew/antha/driver/antha_runner_v1"
+	lhclient "github.com/jkmathew/antha/driver/liquidhandling/client"
+	"github.com/jkmathew/antha/target/human"
+	"github.com/jkmathew/antha/target/mixer"
+	"github.com/jkmathew/antha/target/shakerincubator"
 	"google.golang.org/grpc"
 )
 

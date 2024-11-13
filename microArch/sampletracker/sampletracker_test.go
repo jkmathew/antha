@@ -3,7 +3,7 @@ package sampletracker
 import (
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 func assertLocation(t *testing.T, st *SampleTracker, id string, eloc string, eok bool) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/enzymes/lookup"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/enzymes/lookup"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 func TestNoRotationNeeded(t *testing.T) {

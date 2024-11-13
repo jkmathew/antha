@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/enzymes"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/enzymes"
 )
 
 func TestStringToAssemblyParameters(t *testing.T) {

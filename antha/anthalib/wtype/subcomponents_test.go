@@ -3,7 +3,7 @@ package wtype
 import (
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 func TestAddandGetComponent(t *testing.T) {

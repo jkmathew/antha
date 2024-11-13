@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 //InputSolutions properties to do with the input Liquids required for the mix

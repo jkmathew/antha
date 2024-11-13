@@ -16,14 +16,14 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
 package text
 
 import (
-	"github.com/antha-lang/antha/antha/anthalib/wutil/text"
+	"github.com/jkmathew/antha/antha/anthalib/wutil/text"
 )
 
 // PrettyPrint will return an indented string of an object.

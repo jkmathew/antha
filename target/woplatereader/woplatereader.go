@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/driver"
-	platereader "github.com/antha-lang/antha/driver/antha_platereader_v1"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/driver"
+	platereader "github.com/jkmathew/antha/driver/antha_platereader_v1"
+	"github.com/jkmathew/antha/target"
 )
 
 // WOPlateReader defines the state of a write only plate-reader device

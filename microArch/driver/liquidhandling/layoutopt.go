@@ -2,7 +2,7 @@ package liquidhandling
 
 import (
 	"fmt"
-	"github.com/antha-lang/antha/utils"
+	"github.com/jkmathew/antha/utils"
 	"github.com/pkg/errors"
 	"strings"
 )

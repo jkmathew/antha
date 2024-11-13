@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/search"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/execute/executeutil"
-	"github.com/antha-lang/antha/workflow"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/search"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/execute/executeutil"
+	"github.com/jkmathew/antha/workflow"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

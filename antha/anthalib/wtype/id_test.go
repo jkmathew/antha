@@ -1,7 +1,7 @@
 package wtype
 
 import (
-	"github.com/antha-lang/antha/antha/anthalib/wutil"
+	"github.com/jkmathew/antha/antha/anthalib/wutil"
 	"testing"
 )
 

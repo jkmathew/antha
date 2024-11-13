@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/antha-lang/antha/execute/executeutil"
+	"github.com/jkmathew/antha/execute/executeutil"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

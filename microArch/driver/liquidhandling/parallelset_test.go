@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/inventory/testinventory"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/inventory/testinventory"
 )
 
 func TestParallelSetGeneration(t *testing.T) {

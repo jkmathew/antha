@@ -8,7 +8,7 @@ import (
 	"github.com/go-test/deep"
 	"github.com/pkg/errors"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // AssertLayoutsEquivalent checks that the layouts match, ignoring differences in object IDs

@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/workflow"
-	"github.com/antha-lang/antha/workflowtest"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/workflow"
+	"github.com/jkmathew/antha/workflowtest"
 )
 
 // A TestInput is a workflow, its iputs and expected output

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 type ComponentVector []*Liquid

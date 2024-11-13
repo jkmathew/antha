@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -28,11 +28,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/solutions"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/antha/anthalib/wutil"
-	"github.com/antha-lang/antha/inventory"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/solutions"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wutil"
+	"github.com/jkmathew/antha/inventory"
 )
 
 // HandleStringFactor converts the value of a factor with an interface value to a string.

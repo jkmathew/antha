@@ -2,7 +2,7 @@ package ast
 
 import (
 	"fmt"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // QPCRInstruction is a high-level instruction to perform a QPCR analysis.

@@ -9,11 +9,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/qri-io/jsonschema"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	driver "github.com/antha-lang/antha/microArch/driver/liquidhandling"
-	simulator "github.com/antha-lang/antha/microArch/simulator/liquidhandling"
-	"github.com/antha-lang/antha/utils"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	driver "github.com/jkmathew/antha/microArch/driver/liquidhandling"
+	simulator "github.com/jkmathew/antha/microArch/simulator/liquidhandling"
+	"github.com/jkmathew/antha/utils"
 )
 
 const (

@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -32,18 +32,18 @@ import (
 	"path"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wtype/liquidtype"
-	"github.com/antha-lang/antha/cmd/antha/pretty"
-	"github.com/antha-lang/antha/cmd/antha/spawn"
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/execute/executeutil"
-	"github.com/antha-lang/antha/inject"
-	"github.com/antha-lang/antha/inventory/testinventory"
-	"github.com/antha-lang/antha/target"
-	"github.com/antha-lang/antha/target/auto"
-	"github.com/antha-lang/antha/target/mixer"
-	"github.com/antha-lang/antha/workflowtest"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype/liquidtype"
+	"github.com/jkmathew/antha/cmd/antha/pretty"
+	"github.com/jkmathew/antha/cmd/antha/spawn"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/execute/executeutil"
+	"github.com/jkmathew/antha/inject"
+	"github.com/jkmathew/antha/inventory/testinventory"
+	"github.com/jkmathew/antha/target"
+	"github.com/jkmathew/antha/target/auto"
+	"github.com/jkmathew/antha/target/mixer"
+	"github.com/jkmathew/antha/workflowtest"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

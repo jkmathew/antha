@@ -5,9 +5,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/meta"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/meta"
 )
 
 type saver struct {

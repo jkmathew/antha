@@ -6,8 +6,8 @@ import (
 
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/utils"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/utils"
 )
 
 // enum of instruction types

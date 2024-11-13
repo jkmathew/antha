@@ -4,9 +4,9 @@ import (
 	"errors"
 	"reflect"
 
-	api "github.com/antha-lang/antha/api/v1"
-	"github.com/antha-lang/antha/inject"
-	"github.com/antha-lang/antha/meta"
+	api "github.com/jkmathew/antha/api/v1"
+	"github.com/jkmathew/antha/inject"
+	"github.com/jkmathew/antha/meta"
 )
 
 var (

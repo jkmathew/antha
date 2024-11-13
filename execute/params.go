@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	api "github.com/antha-lang/antha/api/v1"
-	"github.com/antha-lang/antha/inject"
-	"github.com/antha-lang/antha/inventory"
-	"github.com/antha-lang/antha/meta"
-	"github.com/antha-lang/antha/target/mixer"
-	"github.com/antha-lang/antha/workflow"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	api "github.com/jkmathew/antha/api/v1"
+	"github.com/jkmathew/antha/inject"
+	"github.com/jkmathew/antha/inventory"
+	"github.com/jkmathew/antha/meta"
+	"github.com/jkmathew/antha/target/mixer"
+	"github.com/jkmathew/antha/workflow"
 	"github.com/golang/protobuf/jsonpb"
 )
 
@@ -24,7 +24,7 @@ var (
 
 // RawParams is the structure of parameter data for unmarshalling.
 //
-// Deprecated for github.com/antha-lang/antha/api/v1/WorkflowParameters.
+// Deprecated for github.com/jkmathew/antha/api/v1/WorkflowParameters.
 type RawParams struct {
 	Parameters map[string]map[string]json.RawMessage `json:"Parameters"`
 	Config     *mixer.Opt                            `json:"Config"`
@@ -32,7 +32,7 @@ type RawParams struct {
 
 // Params is the structure of parameter data for marshalling.
 //
-// Deprecated for github.com/antha-lang/antha/api/v1/WorkflowParameters.
+// Deprecated for github.com/jkmathew/antha/api/v1/WorkflowParameters.
 type Params struct {
 	Parameters map[string]map[string]interface{} `json:"Parameters"`
 	Config     *mixer.Opt                        `json:"Config"`

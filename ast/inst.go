@@ -3,7 +3,7 @@ package ast
 import (
 	"context"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 // An Inst is a instruction

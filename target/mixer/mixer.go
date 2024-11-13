@@ -10,13 +10,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/inventory"
-	driver "github.com/antha-lang/antha/microArch/driver/liquidhandling"
-	"github.com/antha-lang/antha/microArch/sampletracker"
-	planner "github.com/antha-lang/antha/microArch/scheduler/liquidhandling"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/inventory"
+	driver "github.com/jkmathew/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/microArch/sampletracker"
+	planner "github.com/jkmathew/antha/microArch/scheduler/liquidhandling"
+	"github.com/jkmathew/antha/target"
 )
 
 var (

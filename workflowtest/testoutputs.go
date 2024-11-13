@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/target"
 )
 
 // A TestOpt is an option for running a test

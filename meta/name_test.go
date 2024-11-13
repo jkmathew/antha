@@ -18,8 +18,8 @@ func TestFullyQualifiedType(t *testing.T) {
 		{Obj: make([]string, 0), Expected: "[]string"},
 		{Obj: make(chan string), Expected: "chan string"},
 		{Obj: TestFullyQualifiedType, Expected: "func(*testing.T)"},
-		{Obj: myStruct{}, Expected: "github.com/antha-lang/antha/meta.myStruct"},
-		{Obj: myString(""), Expected: "github.com/antha-lang/antha/meta.myString"},
+		{Obj: myStruct{}, Expected: "github.com/jkmathew/antha/meta.myStruct"},
+		{Obj: myString(""), Expected: "github.com/jkmathew/antha/meta.myString"},
 		{Obj: func(error) {}, Expected: "func(error)"},
 	}
 

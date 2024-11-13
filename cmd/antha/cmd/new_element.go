@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -33,12 +33,12 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/component"
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/inject"
-	"github.com/antha-lang/antha/workflow"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/component"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/inject"
+	"github.com/jkmathew/antha/workflow"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -76,8 +76,8 @@ protocol {{.Name}}
 
 // Place golang packages to import here
 import (
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/mixer"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/mixer"
 )
 
 // Parameters to this protocol

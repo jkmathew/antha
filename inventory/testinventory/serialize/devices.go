@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/devices"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/devices"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // heights in mm

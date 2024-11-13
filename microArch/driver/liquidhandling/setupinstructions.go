@@ -2,7 +2,7 @@ package liquidhandling
 
 import (
 	"context"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // instructions to deal with robot setup

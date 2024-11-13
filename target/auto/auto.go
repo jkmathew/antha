@@ -5,10 +5,10 @@ package auto
 import (
 	"context"
 
-	"github.com/antha-lang/antha/ast"
-	runner "github.com/antha-lang/antha/driver/antha_runner_v1"
-	"github.com/antha-lang/antha/target"
-	"github.com/antha-lang/antha/target/human"
+	"github.com/jkmathew/antha/ast"
+	runner "github.com/jkmathew/antha/driver/antha_runner_v1"
+	"github.com/jkmathew/antha/target"
+	"github.com/jkmathew/antha/target/human"
 	"google.golang.org/grpc"
 )
 

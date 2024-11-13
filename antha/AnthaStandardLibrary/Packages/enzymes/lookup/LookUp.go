@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/asset"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/rebase"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/asset"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/rebase"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // TypeIIs looks up a TypeIIs enzyme and returns the result as a TypeIIs enzyme object.

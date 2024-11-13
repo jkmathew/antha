@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/antha-lang/antha/cmd/antha/comp"
+	"github.com/jkmathew/antha/cmd/antha/comp"
 )
 
 // Components returns a pretty printed version of comp.Component

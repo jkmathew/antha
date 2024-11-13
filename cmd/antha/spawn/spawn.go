@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/antha-lang/antha/cmd/antha/writer"
+	"github.com/jkmathew/antha/cmd/antha/writer"
 	"github.com/mattn/go-colorable"
 	"github.com/mgutz/ansi"
 )

@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -64,17 +64,17 @@ func readme(cmd *cobra.Command, args []string) error {
 	default:
 		var err error
 
-		anthaCommit, err := gitCommit(filepath.Join(gopath(), "github.com/antha-lang/antha"))
+		anthaCommit, err := gitCommit(filepath.Join(gopath(), "github.com/jkmathew/antha"))
 		if err != nil {
-			anthaCommit = fmt.Sprintln("error getting git commit for antha-lang/antha:", err.Error())
+			anthaCommit = fmt.Sprintln("error getting git commit for jkmathew/antha:", err.Error())
 		}
-		fmt.Println("github.com/antha-lang/antha", anthaCommit)
+		fmt.Println("github.com/jkmathew/antha", anthaCommit)
 
-		elementsCommit, err := gitCommit(filepath.Join(gopath(), "github.com/antha-lang/elements"))
+		elementsCommit, err := gitCommit(filepath.Join(gopath(), "github.com/jkmathew/elements"))
 		if err != nil {
-			elementsCommit = fmt.Sprintln("error getting git commit for antha-lang/elements:", err.Error())
+			elementsCommit = fmt.Sprintln("error getting git commit for jkmathew/elements:", err.Error())
 		}
-		fmt.Println("github.com/antha-lang/elements", elementsCommit)
+		fmt.Println("github.com/jkmathew/elements", elementsCommit)
 
 		synthaceElementsCommit, err := gitCommit(filepath.Join(gopath(), "github.com/Synthace/elements"))
 		if err != nil {
@@ -145,10 +145,10 @@ var reportTemplate = `
 
 #### Get required repos
 
-1. branch of antha-lang/antha :
+1. branch of jkmathew/antha :
 
 {{.TripleQuote}}bash
-cd $GOPATH/src/github.com/antha-lang/antha
+cd $GOPATH/src/github.com/jkmathew/antha
 
 git fetch 
 git checkout {{.ANTHACOMMIT}}
@@ -156,11 +156,11 @@ cd -
 {{.TripleQuote}}
 
 
-2.  branch of antha-lang/elements
+2.  branch of jkmathew/elements
 
 
 {{.TripleQuote}}bash
-cd $GOPATH/src/github.com/antha-lang/elements
+cd $GOPATH/src/github.com/jkmathew/elements
 git fetch
 git checkout {{.ELEMENTSCOMMIT}}
 cd -
@@ -196,7 +196,7 @@ cd -
 5. Build 
 
 {{.TripleQuote}}bash
-make current -C $GOPATH/src/github.com/antha-lang/elements
+make current -C $GOPATH/src/github.com/jkmathew/elements
 {{.TripleQuote}}
 
 or

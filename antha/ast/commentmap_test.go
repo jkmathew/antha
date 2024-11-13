@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -34,9 +34,9 @@ import (
 	"sort"
 	"testing"
 
-	. "github.com/antha-lang/antha/antha/ast"
-	"github.com/antha-lang/antha/antha/parser"
-	"github.com/antha-lang/antha/antha/token"
+	. "github.com/jkmathew/antha/antha/ast"
+	"github.com/jkmathew/antha/antha/parser"
+	"github.com/jkmathew/antha/antha/token"
 )
 
 const src = `
@@ -49,8 +49,8 @@ package p /* the name is p */
 import (
 	"bytes"     // bytes
 	"fmt"       // fmt
-	"github.com/antha-lang/antha/antha/ast"
-	"github.com/antha-lang/antha/antha/parser"
+	"github.com/jkmathew/antha/antha/ast"
+	"github.com/jkmathew/antha/antha/parser"
 )
 
 // T

@@ -5,9 +5,9 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/antha-lang/antha/execute/executeutil"
-	"github.com/antha-lang/antha/target/mixer"
-	"github.com/antha-lang/antha/workflow"
+	"github.com/jkmathew/antha/execute/executeutil"
+	"github.com/jkmathew/antha/target/mixer"
+	"github.com/jkmathew/antha/workflow"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

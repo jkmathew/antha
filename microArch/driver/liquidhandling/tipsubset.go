@@ -1,7 +1,7 @@
 package liquidhandling
 
 import (
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 type TipSubset struct {

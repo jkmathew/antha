@@ -7,9 +7,9 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	drv "github.com/antha-lang/antha/driver/antha_driver_v1"
-	"github.com/antha-lang/antha/driver/liquidhandling/pb"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
+	drv "github.com/jkmathew/antha/driver/antha_driver_v1"
+	"github.com/jkmathew/antha/driver/liquidhandling/pb"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
 )
 
 // HighLevelLiquidHandlingServer a server object to listen to RPC calls to a high

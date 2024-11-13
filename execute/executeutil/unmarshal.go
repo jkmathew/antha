@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/antha-lang/antha/execute"
-	"github.com/antha-lang/antha/utils"
-	"github.com/antha-lang/antha/workflow"
-	"github.com/antha-lang/antha/workflowtest"
+	"github.com/jkmathew/antha/execute"
+	"github.com/jkmathew/antha/utils"
+	"github.com/jkmathew/antha/workflow"
+	"github.com/jkmathew/antha/workflowtest"
 )
 
 // A Bundle is a workflow with its inputs

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/graph"
-	"github.com/antha-lang/antha/microArch/driver/liquidhandling"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/graph"
+	"github.com/jkmathew/antha/microArch/driver/liquidhandling"
+	"github.com/jkmathew/antha/target"
 )
 
 func (a *ir) getMixes() (ret []*target.Mix) {

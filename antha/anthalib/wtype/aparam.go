@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 const (

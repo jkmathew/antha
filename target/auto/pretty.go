@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/target"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/target"
 )
 
 // Pretty returns a human description of instruction

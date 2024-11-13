@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/antha-lang/antha/ast"
+	"github.com/jkmathew/antha/ast"
 )
 
 var (

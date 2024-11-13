@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wutil"
-	"github.com/antha-lang/antha/inventory"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wutil"
+	"github.com/jkmathew/antha/inventory"
 )
 
 type layoutAgentTest struct {

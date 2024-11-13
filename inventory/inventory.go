@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 var (

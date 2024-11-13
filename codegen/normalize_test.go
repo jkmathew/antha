@@ -3,7 +3,7 @@ package codegen
 import (
 	"testing"
 
-	"github.com/antha-lang/antha/ast"
+	"github.com/jkmathew/antha/ast"
 )
 
 func equals(as, bs []*ast.UseComp) bool {

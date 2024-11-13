@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/solutions"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
+	. "github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/solutions"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
 )
 
 type mixComponentlistTest struct {

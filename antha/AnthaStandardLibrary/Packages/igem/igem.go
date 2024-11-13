@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -35,8 +35,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/AnthaPath"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/search"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/AnthaPath"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/search"
 )
 
 // http://parts.igem.org/Registry_API

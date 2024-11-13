@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/inventory"
-	"github.com/antha-lang/toolbox/csvutil"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/inventory"
+	"github.com/jkmathew/toolbox/csvutil"
 	"github.com/pkg/errors"
 )
 

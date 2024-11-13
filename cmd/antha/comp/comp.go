@@ -3,7 +3,7 @@ package comp
 import (
 	"fmt"
 
-	"github.com/antha-lang/antha/component"
+	"github.com/jkmathew/antha/component"
 )
 
 // TODO: replace with api defintions

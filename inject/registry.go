@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	api "github.com/antha-lang/antha/api/v1"
+	api "github.com/jkmathew/antha/api/v1"
 )
 
 var errAlreadyAdded = errors.New("already added")

@@ -2,8 +2,8 @@ package align
 
 import (
 	"fmt"
-	"github.com/antha-lang/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/AnthaStandardLibrary/Packages/sequences/parse/fasta"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 	"io/ioutil"
 	"testing"
 )

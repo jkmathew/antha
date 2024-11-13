@@ -3,7 +3,7 @@ package component
 import (
 	"testing"
 
-	"github.com/antha-lang/antha/inject"
+	"github.com/jkmathew/antha/inject"
 )
 
 func TestMakeParams(t *testing.T) {

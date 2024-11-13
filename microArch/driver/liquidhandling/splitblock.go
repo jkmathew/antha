@@ -3,7 +3,7 @@ package liquidhandling
 import (
 	"context"
 	"fmt"
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 type SplitBlockInstruction struct {

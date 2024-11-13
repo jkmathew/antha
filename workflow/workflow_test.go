@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	api "github.com/antha-lang/antha/api/v1"
-	"github.com/antha-lang/antha/inject"
+	api "github.com/jkmathew/antha/api/v1"
+	"github.com/jkmathew/antha/inject"
 )
 
 func createContext() (context.Context, error) {

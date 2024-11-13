@@ -3,7 +3,7 @@ package sampletracker
 import (
 	"sync"
 
-	"github.com/antha-lang/antha/antha/anthalib/wtype"
+	"github.com/jkmathew/antha/antha/anthalib/wtype"
 )
 
 // SampleTracker record the location of components generated during element execution

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/antha-lang/antha/antha/anthalib/wunit"
-	"github.com/antha-lang/antha/ast"
-	"github.com/antha-lang/antha/driver"
-	shakerincubator "github.com/antha-lang/antha/driver/antha_shakerincubator_v1"
-	"github.com/antha-lang/antha/target"
-	"github.com/antha-lang/antha/target/handler"
+	"github.com/jkmathew/antha/antha/anthalib/wunit"
+	"github.com/jkmathew/antha/ast"
+	"github.com/jkmathew/antha/driver"
+	shakerincubator "github.com/jkmathew/antha/driver/antha_shakerincubator_v1"
+	"github.com/jkmathew/antha/target"
+	"github.com/jkmathew/antha/target/handler"
 )
 
 // A ShakerIncubator is a device that can shake and incubate things

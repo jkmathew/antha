@@ -16,7 +16,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 //
 // For more information relating to the software or licensing issues please
-// contact license@antha-lang.org or write to the Antha team c/o
+// contact license@jkmathew.org or write to the Antha team c/o
 // Synthace Ltd. The London Bioscience Innovation Centre
 // 2 Royal College St, London NW1 0NH UK
 
@@ -26,9 +26,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/antha-lang/antha/antha/ast"
-	"github.com/antha-lang/antha/antha/parser"
-	"github.com/antha-lang/antha/antha/token"
+	"github.com/jkmathew/antha/antha/ast"
+	"github.com/jkmathew/antha/antha/parser"
+	"github.com/jkmathew/antha/antha/token"
 )
 
 var fset = token.NewFileSet()
@@ -92,7 +92,7 @@ func TestIllegalProgram(t *testing.T) {
 
 	const src = "package p\n("
 	//	const res = "package p\nBadDecl\n"
-	const res = "package p\n\nimport \"github.com/antha-lang/antha/antha/execute\"\nimport \"github.com/Synthace/goflow\"\nimport \"sync\"\nimport \"encoding/json\"\n//import \"log\"\n//import \"bytes\"\n//import \"io\"\n\n\n\nBadDecl\n// AsyncBag functions\nfunc (e *P) Complete(params interface{}) {\n\tp := params.(PParamBlock)\n\tif p.Error {\n\n\t\treturn\n\t}\n\tr := new(PResultBlock)\n\te.startup.Do(func() { e.setup(p) })\n\te.steps(p, r)\n\tif r.Error {\n\n\t\treturn\n\t}\n\n\te.analysis(p, r)\n\t\tif r.Error {\n\n\n\t\treturn\n\t}\n\n\te.validation(p, r)\n\t\tif r.Error {\n\n\t\treturn\n\t}\n\n}\n\n// empty function for interface support\nfunc (e *P) anthaElement() {}\n\n// init function, read characterization info from seperate file to validate ranges?\nfunc (e *P) init() {\n\te.params = make(map[execute.ThreadID]*execute.AsyncBag)\n}\n\nfunc NewP() interface{} {//*P {\n\te := new(P)\n\te.init()\n\treturn e\n}\n\n// Mapper function\nfunc (e *P) Map(m map[string]interface{}) interface{} {\n\tvar res PParamBlock\n\tres.Error = false \n\n\n\treturn res\n}\n\n\ntype P struct {\n\tflow.Component                    // component \"superclass\" embedded\n\tlock           sync.Mutex\n\tstartup        sync.Once\n\tparams         map[execute.ThreadID]*execute.AsyncBag\n}\n\ntype PParamBlock struct{\n\tID\t\texecute.ThreadID\n\tError\tbool\n}\ntype PResultBlock struct{\n\tID\t\texecute.ThreadID\n\tError\tbool\n}\ntype PJSONBlock struct{\n\tID\t\t\t*execute.ThreadID\n\tError\t\t*bool\n}\n" //TODO review the intention of this test
+	const res = "package p\n\nimport \"github.com/jkmathew/antha/antha/execute\"\nimport \"github.com/Synthace/goflow\"\nimport \"sync\"\nimport \"encoding/json\"\n//import \"log\"\n//import \"bytes\"\n//import \"io\"\n\n\n\nBadDecl\n// AsyncBag functions\nfunc (e *P) Complete(params interface{}) {\n\tp := params.(PParamBlock)\n\tif p.Error {\n\n\t\treturn\n\t}\n\tr := new(PResultBlock)\n\te.startup.Do(func() { e.setup(p) })\n\te.steps(p, r)\n\tif r.Error {\n\n\t\treturn\n\t}\n\n\te.analysis(p, r)\n\t\tif r.Error {\n\n\n\t\treturn\n\t}\n\n\te.validation(p, r)\n\t\tif r.Error {\n\n\t\treturn\n\t}\n\n}\n\n// empty function for interface support\nfunc (e *P) anthaElement() {}\n\n// init function, read characterization info from seperate file to validate ranges?\nfunc (e *P) init() {\n\te.params = make(map[execute.ThreadID]*execute.AsyncBag)\n}\n\nfunc NewP() interface{} {//*P {\n\te := new(P)\n\te.init()\n\treturn e\n}\n\n// Mapper function\nfunc (e *P) Map(m map[string]interface{}) interface{} {\n\tvar res PParamBlock\n\tres.Error = false \n\n\n\treturn res\n}\n\n\ntype P struct {\n\tflow.Component                    // component \"superclass\" embedded\n\tlock           sync.Mutex\n\tstartup        sync.Once\n\tparams         map[execute.ThreadID]*execute.AsyncBag\n}\n\ntype PParamBlock struct{\n\tID\t\texecute.ThreadID\n\tError\tbool\n}\ntype PResultBlock struct{\n\tID\t\texecute.ThreadID\n\tError\tbool\n}\ntype PJSONBlock struct{\n\tID\t\t\t*execute.ThreadID\n\tError\t\t*bool\n}\n" //TODO review the intention of this test
 	f, err := parser.ParseFile(fset, "", src, parser.ParseComments)
 	if err == nil {
 		t.Error("expected illegal program") // error in test
